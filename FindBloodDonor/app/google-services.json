@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "555049832384",
+    "firebase_url": "https://findblooddonor-77781.firebaseio.com",
+    "project_id": "findblooddonor-77781",
+    "storage_bucket": "findblooddonor-77781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555049832384:android:45e1b8d22800a9c3",
+        "android_client_info": {
+          "package_name": "com.example.shakil.findblooddonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555049832384-3rhokbaijs4au89omp8lfnfph9mpdu8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shakil.findblooddonor",
+            "certificate_hash": "8a908779b29c81a344c097f65503729908d11bbc"
+          }
+        },
+        {
+          "client_id": "555049832384-3ipqu9g0u3ajonee178peit48t9316kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6r5zZiOIlmhcTE-ijstb_4LXH3MFfts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555049832384-3ipqu9g0u3ajonee178peit48t9316kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSignup"
+    tools:context="com.example.shakil.findblooddonor.Home">
+
+
+    <Spinner
+        android:id="@+id/spinner_blood_group_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_find_blood_donor"
+        android:layout_alignEnd="@+id/btn_find_blood_donor"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_above="@+id/spinner_blood_group_home"
+        android:layout_alignStart="@+id/btn_find_blood_donor"
+        android:layout_marginBottom="17dp"
+        android:text="Select Blood Group "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Search Blood Donor" />
+
+    <Button
+        android:id="@+id/btn_find_blood_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_logout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:text="Find Blood Donor" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="Log Out" />
+</RelativeLayout>
